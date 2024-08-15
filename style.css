@@ -3,15 +3,46 @@
     padding: 0;
     font-family: "poppins", sans-serif;
     box-sizing: border-box;
+    
 }
 
 body{
     background:goldenrod;
     color: white;
+   
 }
 
 h1{
     text-align: center;
     margin: 100px auto 50px;
     font-weight: 600;
+}
+.container{
+    background-color: rgba(205, 177, 154, 0.678);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.output p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+strong{
+    color:#333
+}
+
+.box {
+    background-color: darkkhaki;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    width: 300px;
+    text-align: center;
 }
